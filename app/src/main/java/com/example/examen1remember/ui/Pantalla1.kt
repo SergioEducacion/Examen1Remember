@@ -50,10 +50,6 @@ fun PantallaLoteria(
     var dineroApostadoTextEditor: MutableState<String> = remember { mutableStateOf("0") }
     val dineroApostadoLoteria = dineroApostadoTextEditor.value.toInt();
 
-
-    var ejemplo: MutableState<String> = remember { mutableStateOf("aa") }
-
-
     Column() {
         Text(
             text = "Bienvenido a apuestas XXX",
